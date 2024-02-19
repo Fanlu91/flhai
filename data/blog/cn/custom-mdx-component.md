@@ -1,3 +1,12 @@
+---
+title: 甜甜圈图表示例
+date: '2024-02-19'
+tags: ['React', 'Chart.js', 'MDX', 'Data Visualization']
+draft: false
+summary: 本文介绍如何在MDX帖子中创建并使用一个基于Chart.js的甜甜圈图表组件，展示了如何集成自定义React组件以增强内容的互动性和视觉吸引力。
+---
+
+
 要在MDX帖子中添加自定义MDX组件并创建一个来自Chart.js的甜甜圈图表的示例，请按照以下步骤操作。首先，在`components`文件夹中创建一个名为`DonutChart.tsx`的新组件：
 
 ```tsx
