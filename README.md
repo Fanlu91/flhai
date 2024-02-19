@@ -57,6 +57,7 @@ npx degit 'Fanlu91/flhai'
 7. Add blog posts
 8. Deploy on Vercel
 
+follow https://vercel.com/docs/integrations/cloudflare if you are using a cloudflare domain.
 ## Installation
 
 ```bash
