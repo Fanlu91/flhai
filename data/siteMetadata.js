@@ -2,7 +2,7 @@
 const siteMetadata = {
   title: 'Fanlu\'s Blog',
   author: 'Fanlu Hai',
-  headerTitle: 'TailwindBlog',
+  headerTitle: 'Fanlu\'s Blog',
   description: 'A blog created with Next.js and Tailwind.css',
   language: 'en-us',
   theme: 'system', // system, dark or light
