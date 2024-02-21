@@ -3,7 +3,7 @@ const siteMetadata = {
   title: 'Fanlu\'s Blog',
   author: 'Fanlu Hai',
   headerTitle: 'Fanlu\'s Blog',
-  description: 'A blog created with Next.js and Tailwind.css',
+  description: 'Writing is for better thinking.',
   language: 'en-us',
   theme: 'system', // system, dark or light
   siteUrl: 'https://www.flhai.com',
