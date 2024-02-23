@@ -5,11 +5,12 @@ import Link from './Link'
 import MobileNav from './MobileNav'
 import ThemeSwitch from './ThemeSwitch'
 import SearchButton from './SearchButton'
+import LanguageSwitch from './LanguageSwitch'
 
 const Header = () => {
   return (
     <header className="flex items-center justify-between py-10">
-      <div>
+      <div className="flex flex-col items-center">
         <Link href="/" aria-label={siteMetadata.headerTitle}>
           <div className="flex items-center justify-between">
             <div className="mr-3">
@@ -24,6 +25,9 @@ const Header = () => {
             )}
           </div>
         </Link>
+        <div className="ml-2 sm:ml-4">
+          <LanguageSwitch />
+        </div>
       </div>
       <div className="flex items-center space-x-4 leading-5 sm:space-x-6">
         {headerNavLinks
