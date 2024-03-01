@@ -7,4 +7,12 @@ module.exports = {
   trailingComma: 'es5',
   bracketSpacing: true,
   plugins: ['prettier-plugin-tailwindcss'],
+  overrides: [
+    {
+      files: '*.mdx',
+      options: {
+        singleQuote: false, // Use double quotes for MDX files
+      },
+    },
+  ],
 }
